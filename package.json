@@ -1,0 +1,27 @@
+{
+  "name": "io.meimberg.quartier.backend",
+  "version": "1.0.0",
+  "description": "Supabase backend for Quartier project",
+  "scripts": {
+    "start": "npx supabase start",
+    "stop": "npx supabase stop",
+    "restart": "npx supabase stop && npx supabase start",
+    "status": "npx supabase status",
+    "db:import": "node supabase/seed/import-data.js",
+    "db:reset": "npx supabase db reset",
+    "studio": "npx supabase status | grep Studio"
+  },
+  "keywords": [
+    "supabase",
+    "postgresql",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "supabase": "^2.67.3"
+  }
+}
