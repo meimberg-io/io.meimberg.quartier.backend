@@ -64,3 +64,5 @@ CREATE POLICY "Enable all operations for authenticated users" ON personen
 GRANT ALL ON haushalte TO postgres, anon, authenticated, service_role;
 GRANT ALL ON personen TO postgres, anon, authenticated, service_role;
 
+
+

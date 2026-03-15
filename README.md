@@ -68,3 +68,6 @@ No manual SQL setup needed!
 - All services run in Docker containers managed by the Supabase CLI
 - Database data is persisted in Docker volumes
 - Configuration is in `supabase/config.toml`
+
+
+
